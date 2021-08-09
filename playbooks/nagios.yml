@@ -1,0 +1,6 @@
+---
+- name: Running nagios roles/paulo.nagios-server
+  hosts: 192.168.1.102
+  become: yes
+  roles:
+    - roles/paulo.nagios-server

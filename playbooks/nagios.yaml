@@ -1,0 +1,6 @@
+---
+- name: Running nagios roles/sari.nagios-server
+  hosts: 192.168.1.102
+  become: yes
+  roles:
+    - roles/sari.nagios-server
